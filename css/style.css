@@ -99,7 +99,7 @@ a, button { -webkit-tap-highlight-color: transparent; }
   transition: box-shadow 0.3s;
 }
 .header.scrolled { box-shadow: var(--shadow-md); }
-.header__inner { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding-top: 14px; padding-bottom: 14px; }
+.header__inner { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding-top: 30px; padding-bottom: 30px; }
 
 .logo { display: flex; align-items: center; gap: 10px; }
 .logo__img { display: block; height: 36px; width: auto; }
