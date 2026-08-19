@@ -247,7 +247,10 @@ a, button { -webkit-tap-highlight-color: transparent; }
   border-radius: 22px;
   display: flex; flex-direction: column; align-items: center; justify-content: center;
   gap: 10px;
+  overflow: hidden;
+  padding: 8px;
 }
+.hero__product-box img { width: 100%; height: 100%; object-fit: contain; }
 .hero__product-icon { font-size: 56px; }
 .hero__product-label { font-weight: 800; color: var(--blue-700); font-family: var(--font-head); font-size: 15px; letter-spacing: 0.5px; }
 .hero__card h3 { font-family: var(--font-head); color: var(--blue-900); font-size: 17px; margin-bottom: 6px; }
