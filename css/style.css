@@ -897,6 +897,7 @@ a, button { -webkit-tap-highlight-color: transparent; }
   .burger { display: flex; z-index: 100; }
   .topbar__links { display: none; }
   .topbar__inner { justify-content: center; text-align: center; }
+  .header__inner { padding-top: 30px; padding-bottom: 30px; }
 }
 
 @media (max-width: 1024px) {
