@@ -102,6 +102,7 @@ a, button { -webkit-tap-highlight-color: transparent; }
 .header__inner { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding-top: 14px; padding-bottom: 14px; }
 
 .logo { display: flex; align-items: center; gap: 10px; }
+.logo__img { display: block; height: 36px; width: auto; }
 .logo__icon {
   width: 42px; height: 42px;
   background: var(--grad);
@@ -916,6 +917,8 @@ a, button { -webkit-tap-highlight-color: transparent; }
 
 @media (max-width: 768px) {
   .section { padding: 64px 0; }
+  .header__inner { padding-top: 18px; padding-bottom: 18px; }
+  .logo__img { height: 32px; }
   .topbar__text { font-size: 12px; }
   .hero { padding-top: 40px; }
   .hero__stats { gap: 22px; }
