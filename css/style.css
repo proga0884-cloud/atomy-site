@@ -917,7 +917,7 @@ a, button { -webkit-tap-highlight-color: transparent; }
 
 @media (max-width: 768px) {
   .section { padding: 80px 0; }
-  .header__inner { padding-top: 24px; padding-bottom: 24px; }
+  .header__inner { padding-top: 30px; padding-bottom: 30px; }
   .logo__img { height: 32px; }
   .topbar__text { font-size: 12px; }
   .hero { padding-top: 40px; }
