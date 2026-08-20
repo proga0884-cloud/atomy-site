@@ -877,6 +877,19 @@ a, button { -webkit-tap-highlight-color: transparent; }
 .footer__col h4 { font-family: var(--font-head); color: #fff; font-size: 15px; margin-bottom: 18px; }
 .footer__col a { display: block; font-size: 14px; margin-bottom: 10px; transition: color 0.2s; }
 .footer__col a:hover { color: #fff; }
+.footer__social {
+  display: inline-flex !important;
+  align-items: center;
+  gap: 10px;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.2);
+  padding: 10px 16px;
+  border-radius: 12px;
+  margin-top: 6px;
+  transition: all 0.25s;
+}
+.footer__social:hover { background: #25d366; border-color: #25d366; color: #fff !important; transform: translateY(-2px); }
+.footer__social-icon { font-size: 18px; }
 .footer__col p { font-size: 14px; margin-top: 16px; line-height: 1.7; }
 .footer__bottom {
   border-top: 1px solid rgba(255,255,255,0.12);
